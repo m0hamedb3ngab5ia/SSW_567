@@ -1,0 +1,11 @@
+Challenges:
+I haven't used VSCode all summer so relearning the IDE as a whole was a process. Additionally navigating the sensitive structure of folders and writing test cases while ensuring your running the tests in the proper folder was a bit of a hiccup.
+
+Requirements Specification:
+The requirements were clear, but that may change depending on how this assignment is graded - with the off chance that i misinterpreted instructions - but for now requirements were made clear.
+
+Tools:
+GitHub, Python, VSCode, Unittest
+
+Test Cases:
+Included test cases for equilateral, isosceles, scalene, and right triangles as well as an invalid test case. 
