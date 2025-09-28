@@ -7,9 +7,12 @@ The code is written in a testable way, with unit tests, and a Travis CI configur
 
 ## Run the Program
 
+Badge: 
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/m0hamedb3ngab5ia/SSW_567/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/m0hamedb3ngab5ia/SSW_567/tree/main)
+
 To see a GitHub user’s repos and commit counts, run:
 
 ```bash
 python github_api.py <github_user>
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/m0hamedb3ngab5ia/SSW_567/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/m0hamedb3ngab5ia/SSW_567/tree/main)
