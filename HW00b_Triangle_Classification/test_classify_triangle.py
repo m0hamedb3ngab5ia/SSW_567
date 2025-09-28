@@ -1,6 +1,6 @@
 # test_classify_triangle.py
 import unittest
-from classify_triangle import classify_triangle
+from SSW_567.HW00b_Triangle_Classification.classify_triangle import classify_triangle
 
 class TestTriangles(unittest.TestCase):
 
@@ -22,15 +22,16 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(1, 2, 3), "Not a triangle")
 
     def test_equilateral_not_right(self):
-        # An equilateral triangle should never be right
         result = classify_triangle(1, 1, 1)
         self.assertEqual(result, "Equilateral")
 
     def test_another_right_triangle(self):
-        # Another common Pythagorean triple
         result = classify_triangle(5, 12, 13)
         self.assertEqual(result, "Scalene and Right")
 
 
 if __name__ == "__main__":
     unittest.main()
+
+
+#Citations: Github Copilot helped debug my code in classify_triangle.py

@@ -1,11 +1,11 @@
 # classify_triangle.py
 
 def classify_triangle(a, b, c):
-    # sort sides to make it easier to check right triangle (largest side last)
+    #sort sides to make it easier to check right triangle (largest side last)
     sides = sorted([a, b, c])
     a, b, c = sides[0], sides[1], sides[2]
 
-    # first check if it's a valid triangle
+    #check if it's a valid triangle
     if a + b <= c:
         return "Not a triangle"
 
